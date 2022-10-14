@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc50b6b79f86c3746bd275c9f67f8860, type: 3}
+  m_Name: StaticData
+  m_EditorClassIdentifier: 
+  PlayerPrefab: {fileID: 8469572549819146588, guid: 7221f8813ccf59945811de1d189d0bb8, type: 3}
+  CoinPrefab: {fileID: 1155217048366865680, guid: 910489ee666ba2c408ce7538b5a2f644, type: 3}
+  CoinsNumber: 5
+  ThornPrefab: {fileID: 605174812062993744, guid: 01fad8d004dc299449d822591b941c45, type: 3}
+  ThornsNumber: 5
