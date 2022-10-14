@@ -36,7 +36,7 @@ namespace UnityComponents.Players
         {
             if (_pauseUpdate) return;
 
-            if (Mathf.Abs(_rigidBody.position.x - _targetPosition.x) < _positionDelta ||
+            if (Mathf.Abs(_rigidBody.position.x - _targetPosition.x) < _positionDelta &&
                 Mathf.Abs(_rigidBody.position.y - _targetPosition.y) < _positionDelta)
                 ReachedTargetPosition();
         }

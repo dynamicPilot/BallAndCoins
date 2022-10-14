@@ -150,4 +150,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pushForce: 2
-  _positionDelta: 0.012
+  _positionDelta: 0.1
